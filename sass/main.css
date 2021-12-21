@@ -1,21 +1,39 @@
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+body {
+  font-family: "DM Sans", sans-serif;
+  padding-top: 56px;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1,
 h2,
 h3,
-p {
+h4,
+h5,
+h6,
+p,
+ul {
   margin: 0;
+}
+
+ul {
+  list-style: none;
   padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
 }
 
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding: 0 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media screen and (min-width: 480px) {
@@ -95,4 +113,23 @@ p {
   .item:not(:last-child) {
     margin-right: 35px;
   }
+}
+
+.circle {
+  width: 346px;
+  height: 344px;
+  background: #ffa5ba;
+  border-radius: 50%;
+}
+
+.pink {
+  background: #ffb8ca;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: #ffb8ca;
+  padding-top: 6px;
 }
