@@ -10,3 +10,8 @@ p {
   margin: 0;
   padding: 0;
 }
+.cont {
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+}
