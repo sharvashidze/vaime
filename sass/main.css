@@ -12,8 +12,87 @@ p {
   padding: 0;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+
 @media screen and (min-width: 480px) {
-  .cont {
+  .container {
     width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}
+
+.hidden2 {
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 1279px) {
+  .hidden {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hidden {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .logo {
+    margin-right: 110px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hidden2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .hidden2 {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hidden2 {
+    margin-left: auto;
+  }
+}
+
+.dop {
+  display: flex;
+}
+
+.menubtn {
+  margin-left: auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .menubtn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .item:not(:last-child) {
+    margin-right: 35px;
   }
 }

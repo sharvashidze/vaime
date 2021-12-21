@@ -10,8 +10,61 @@ p {
   margin: 0;
   padding: 0;
 }
-.cont {
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
   @media screen and (min-width: 480px) {
     width: 480px;
+  }
+  @media screen and(min-width:768px) {
+    width: 768px;
+  }
+  @media screen and(min-width:1280px) {
+    width: 1280px;
+  }
+}
+.hidden2 {
+  margin-left: 30px;
+}
+.hidden {
+  @media screen and(max-width:1279px) {
+    display: none;
+  }
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    align-items: center;
+  }
+}
+.logo {
+  @media screen and (min-width: 1280px) {
+    margin-right: 110px;
+  }
+}
+.hidden2 {
+  @media screen and(max-width:768px) {
+    display: none;
+  }
+  @media screen and(min-width:768px) and (max-width: 1279px) {
+    display: block;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-left: auto;
+  }
+}
+.dop {
+  display: flex;
+}
+.menubtn {
+  margin-left: auto;
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
+}
+.item {
+  @media screen and (min-width: 1280px) {
+    &:not(:last-child) {
+      margin-right: 35px;
+    }
   }
 }

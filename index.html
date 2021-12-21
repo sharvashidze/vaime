@@ -5,25 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./sass/main.css" />
   </head>
   <body>
     <header>
-      <div class="cont">
-        <a href=""><img src="./images/logo3.png" alt="logo" /></a>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About us</a></li>
-          <li><a href="">How it’s made?</a></li>
-          <li><a href="">Our products</a></li>
-          <li><a href="">Contact</a></li>
+      <div class="container dop">
+        <a href="" class="logo"><img src="./images/logo3.png" alt="logo" /></a>
+        <ul class="hidden">
+          <li class="item"><a href="">Home</a></li>
+          <li class="item"><a href="">About us</a></li>
+          <li class="item"><a href="">How it’s made?</a></li>
+          <li class="item"><a href="">Our products</a></li>
+          <li class="item"><a href="">Contact</a></li>
         </ul>
-        <button>
+        <button class="menubtn">
           <svg width="20" height="12">
             <use href="./images/symbol-defs.svg#icontelmenu"></use>
           </svg>
         </button>
-        <button>
+        <button class="hidden2">
           Buy now <svg width="4" height="8"><use href=""></use></svg>
         </button>
       </div>
