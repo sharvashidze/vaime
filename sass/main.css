@@ -101,6 +101,8 @@ img {
 
 .menubtn {
   margin-left: auto;
+  background: transparent;
+  border: none;
 }
 
 @media screen and (min-width: 1280px) {
@@ -120,10 +122,15 @@ img {
   height: 344px;
   background: #ffa5ba;
   border-radius: 50%;
+  position: relative;
+  margin-left: 36px;
+  margin-top: 27px;
 }
 
 .pink {
   background: #ffb8ca;
+  height: 502px;
+  overflow: hidden;
 }
 
 .header {
@@ -132,4 +139,27 @@ img {
   width: 100%;
   background: #ffb8ca;
   padding-top: 6px;
+}
+
+.pink__title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-family: Titan One;
+  width: 218px;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.pink__title2 {
+  font-family: Titan One;
+  font-size: 48px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #d41443;
 }
