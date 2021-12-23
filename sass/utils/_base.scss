@@ -1,6 +1,11 @@
+html,
 body {
-  font-family: "DM Sans", sans-serif;
-  padding-top: 56px;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
 }
 a {
   text-decoration: none;
