@@ -20,5 +20,6 @@ const shouldConfirm = false;
 
 
 
-let elementHeight = '200.74px';
-
+// let elementHeight = '200.74px';
+// elementHeight = Number.parseInt(elementHeight);
+// console.log(elementHeight);
